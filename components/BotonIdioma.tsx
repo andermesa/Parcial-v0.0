@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-function LanguageSelector() {
+function BotonIdioma() {
     const cambiarIdioma = (idioma: string) => {
         document.cookie = `idioma=${idioma}; path=/; max-age=31536000`;
     };
@@ -28,4 +28,4 @@ function LanguageSelector() {
     );
 }
 
-export default LanguageSelector;
+export default BotonIdioma;

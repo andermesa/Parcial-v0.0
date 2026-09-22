@@ -1,5 +1,6 @@
 import { getDictionary } from "./dictionaries";
-import LanguageSelector from "@/components/LanguageSelector";
+import LanguageSelector from "@/components/BotonIdioma";
+
 interface Props {
     params: Promise<{ lang: "es" | "en" }>;
 }
